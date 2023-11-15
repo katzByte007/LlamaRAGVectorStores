@@ -21,7 +21,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'your_package_name=LlamaRAGVectorStores.main:main',
+            'LlamaRAGVectorStores=LlamaRAGVectorStores.main:main',
         ],
     },
 )
