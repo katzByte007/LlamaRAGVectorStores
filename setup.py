@@ -3,9 +3,9 @@
 from setuptools import setup
 
 setup(
-    name='your_package_name',
+    name='LlamaRAGVectorStores',
     version='0.1',
-    packages=['your_package_name'],
+    packages=['LlamaRAGVectorStores'],
     install_requires=[
         'llama-index',
         'openai',
@@ -21,7 +21,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'your_package_name=your_package_name.main:main',
+            'your_package_name=LlamaRAGVectorStores.main:main',
         ],
     },
 )
