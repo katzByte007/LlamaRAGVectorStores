@@ -1,6 +1,5 @@
 # main.py
 
-# main.py
 
 from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
 from llama_index.vector_stores import ChromaVectorStore
