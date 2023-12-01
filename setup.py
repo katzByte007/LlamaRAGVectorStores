@@ -1,11 +1,14 @@
 # setup.py
 
 from setuptools import setup
-
+with open("README.md","r") as f:
+    long_description= f.read
 setup(
     name='LlamaRAGVectorStores',
     version='0.1',
     packages=['LlamaRAGVectorStores'],
+    long_description=long_description,
+    long_description_content_type= "text/markdown"
     install_requires=[
         'llama-index',
         'openai',
